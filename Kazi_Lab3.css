@@ -1,3 +1,24 @@
 body{
     background-color: aqua;
 }
+header{
+    background-color: gray;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    text-align: center;
+    font-size: 15pt;
+    width: 98%;
+}
+
+#main-nav{
+    background-color: blue;
+    color: white;
+}
+
+#main-nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
