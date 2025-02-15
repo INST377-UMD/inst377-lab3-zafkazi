@@ -12,8 +12,14 @@ header{
 }
 
 #main-nav{
-    background-color: blue;
+    background-color: pink;
     color: white;
+    text-align: center;
+}
+
+#main-nav li:hover{
+    background-color: beige;
+    color: black;
 }
 
 #main-nav ul li{
@@ -21,4 +27,40 @@ header{
     display: inline-block;
     text-align: center;
     padding: 10px;
+}
+
+.main-area{
+    width:70%;
+    float: left;
+    margin: 0;
+}
+
+.content-box-1{
+    background-color: blueviolet;
+    color: pink;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.more-content{
+    background-color: blanchedalmond;
+    float: right;
+    width: 25%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.more-content:hover{
+    background-color: brown;
+}
+
+#bar{
+    background-color: black;
+    color: white;
+    font-size: 10pt;
+    padding: 3px;
+    text-align: center;
+    clear: both;
 }
