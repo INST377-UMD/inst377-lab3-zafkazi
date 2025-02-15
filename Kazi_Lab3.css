@@ -12,7 +12,7 @@ header{
 }
 
 #main-nav{
-    background-color: pink;
+    background-color: greenyellow;
     color: white;
     text-align: center;
 }
@@ -59,7 +59,7 @@ header{
 #bar{
     background-color: black;
     color: white;
-    font-size: 10pt;
+    font-size: 15pt;
     padding: 3px;
     text-align: center;
     clear: both;
