@@ -1,14 +1,8 @@
 body{
     background-color: aqua;
-}
-header{
-    background-color: gray;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    padding: 5px;
-    text-align: center;
-    font-size: 15pt;
-    width: 98%;
+    padding:2px;
+    margin: auto;
+    width:100%
 }
 
 #main-nav{
@@ -29,14 +23,20 @@ header{
     padding: 10px;
 }
 
+#name:focus{
+    width:40%;
+}
+
 .main-area{
-    width:70%;
+    width:100%;
     float: left;
     margin: 0;
 }
 
 .content-box-1{
     background-color: blueviolet;
+    float: left;
+    width: 70%;
     color: pink;
     border: 2px solid black;
     padding: 10px;
